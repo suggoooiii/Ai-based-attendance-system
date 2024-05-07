@@ -1,3 +1,5 @@
 {
-  "python.analysis.extraPaths": ["./backend/app/services"]
+  "python.analysis.extraPaths": ["./backend/app/services"],
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.analysis.autoImportCompletions": true
 }
